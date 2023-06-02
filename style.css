@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+#wrapper{
+    width: 100%;
+    background-size: contain;
+    background-image: url(architecture-independence-palace-ho-chi-minh-city.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 500%;
+    background-position-y: 50%;
+}
+
+header{
+    width: 100%;
+}
+
+#header{
+    width: 500px;
+    padding: 50px;
+    padding-left: 30%;
+}
+
+#navbar{
+    width: 100%;
+    height: 45px;
+    /* background-color: blanchedalmond; */
+    text-align: center;
+    padding-top: 10px;
+    /* margin-bottom: 5px; */
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#navbar ul {
+	display: flex;
+	list-style: none;
+}
+
+#navbar ul li {
+	margin-left: 50px;
+}
+
+#navbar ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#navbar ul li a.active {
+	font-weight: bold;
+	border-bottom: 2px solid #fff;
+}
+
+.link{
+    text-decoration: none;
+    color: #92220F;
+    font-weight: bold;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: #92220F;
+}
+
+.article1{
+    
+}
+
+.art1{
+    background-color: #18304F;
+    padding: 60px;
+    text-align: center;
+    width: fit-content;
+    width: 660px;
+    border-radius: 10px;
+    border: solid 4px grey;
+}
+
+.art2{
+    background-color: grey;
+    padding: 60px;
+    text-align: center;
+    width: fit-content;
+    width: 660px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: solid 4px #18304F;
+}
+
+.article2{
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 87%;
+}
+
+th{
+    background-color: #561307;
+    color: white;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+    /* border: 1.5px solid #18304F; */
+}
+
+.art3 h2{
+    color: black;
+    padding-left: 38.5%;
+    padding-top: 10px;
+}
+
+.art3 caption{
+    padding-bottom: 10px;
+}
+
+.article1 h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.article2 h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #18304F;
+}
+
+.article1 p{
+    color: #fff;
+}
+
+.article2 p{
+    color: #fff;
+}
+
+/* section .article1 {
+    width: 480px;
+    height: 210;
+    justify-content: space-between;
+    padding: 20px;
+} */
+
+.content{
+    position: absolute;
+}
+
+main{
+    padding: 20px;
+    width: 900px;
+    position: absolute;
+
+}
+
+aside{
+    /* flex-basis: 25%; */
+    /* margin-left: 50%; */
+    background-color: #92220F;
+    padding: 5px;
+    width: 340px;
+    height: 835px;
+    /* padding-left: 500px; */
+    bottom: 100px;
+    margin-left: 819px;
+    margin-top: 20px;
+    border-radius: 8px;
+
+}
+
+.aside-content{
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.aside-content h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.banner img{
+    /* max-width: 100%; */
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.welcome{
+    text-decoration: none;
+}
+
+.welcome :hover{
+    text-decoration: underline;
+}
+
+.greet{
+    text-decoration: none;
+}
+
+.greet:hover{
+    text-decoration: underline;
+}
+
+/* .video video{
+    max-width: 100%;
+    margin-top: 40px;
+    width: 200px;
+} */
+
+footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 75%;
+    background-color: #18304F;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #92220F;
+    font-weight: bold;
+
+}
+
+
+@media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
